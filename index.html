@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Ace Developers</title>
     <link rel="stylesheet" href="Nav.css">
 </head>
 <body>
     <nav id="Navbar">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="#Home">Home</a></li>
             <li><a href="#About">About</a></li>
-            <li><a href="Services.html" target="_blank">Services</a></li>
+            <li><a href="#Services">Services</a></li>
             <li><a href="#Contact">Contact Us</a></li>
         </ul>
         <ul>
-            <li id="funk"><a href="index.html">Portfolio</a></li>
+            <li id="funk"><a href="index.html">Ace Developers</a></li>
         </ul>
     </nav>
+
+    <section id="Home">
+        <h2>Welcome To Ace Developers</h2>
+    </section>
     
-    <main id="About">  
+    <section id="About">  
         <div class="card">
             <a href="">
                 <img src="Aman.jpg" alt="Aman Tripathi">
@@ -59,7 +63,7 @@
                 <p>Short description about Abrar.</p>
             </div>
         </div>
-    </main>
+    </section>
 
     <section id="Contact">
         <h2>Contact Us</h2>
@@ -69,6 +73,14 @@
             <textarea name="Message" class="BG" placeholder="Message" required></textarea>
             <button type="submit" class="btn">Submit</button>
         </form>
+    </section>
+
+    <section id="Services">
+        <h2>Our Services</h2>
+        <p class="Jobs">Website building by mernstack</p>
+        <p class="Jobs">Java App Development</p>
+        <p class="Jobs">Game Development using unity</p>
+        <p id="Service-info">Contact Us if you need to get your project done in time...</p>
     </section>
 
     <footer>&copy; All Rights Reserved to Aman Tripathi</footer>
